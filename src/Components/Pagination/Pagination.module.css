@@ -1,0 +1,14 @@
+.Pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Pagination a{
+    color: black;
+}
+.Pagination a:hover{
+    background-color: black;
+    color: white;
+}

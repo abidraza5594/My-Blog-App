@@ -1,0 +1,72 @@
+ 
+ .PopularPost_container{
+    width: 30%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+ }
+
+ .PopolerPost_Header {
+    width: 100%;
+    border-bottom: 1px solid black;
+ }
+ .PopolerPost_Header h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ .inner_popularPost{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+ .popularPost_img{
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+ }
+ .popularPost_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .popularPost_containt h3{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+ }
+ .popularPost_containt span{
+   font-size: 10px;
+ }
+ .popularPost_containt h3:hover{
+   cursor: pointer;
+   text-decoration: underline;
+ }
+ .popularPost_containt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+ }
+
+.youtube{
+   width: 100%;
+   margin-top: 80px;
+}
+.FeaturedPost{
+   text-align: center;
+   font-size: 22px;
+   font-family: 'Cinzel', serif;
+}

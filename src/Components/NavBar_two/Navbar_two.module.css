@@ -1,0 +1,48 @@
+.navbartwo_container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e9e0e0;
+}
+.logo{
+    margin-left: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: red;
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif;  */
+}
+.listSection{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.listSection:hover{
+    color: red;
+    cursor: pointer;
+}
+.listSectionLogo{
+    color: red;
+    margin-right: 5px;
+    
+}
+.navbar_two_section{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+.navbartwo_container ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}

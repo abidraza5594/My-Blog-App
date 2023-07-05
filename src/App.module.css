@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: black;
+  color: white; */
+
+}
+
+.containerOF_morestorise_PopularPost{
+  display: flex;
+  position: relative;
+}
