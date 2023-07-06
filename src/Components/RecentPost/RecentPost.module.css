@@ -22,12 +22,21 @@
     cursor: pointer;
 }
 .recent_inner1 img{
+    transition: opacity 0.5s ease-in-out;
     height: 100%;
     width: 100%;
     object-fit: cover;
     cursor: pointer;
 }
 
+
+.recent_inner1.fade-out {
+    opacity: 0;
+  }
+  
+  .recent_inner1.fade-in {
+    opacity: 1;
+  }
 
 .imgcontent{
     position: absolute;
