@@ -53,7 +53,7 @@ const RecentPost = () => {
         const randomIndex = Math.floor(Math.random() * objects.length);
         const selectedObject = objects[randomIndex];
         setRandomObject(selectedObject);
-      }, 1500);
+      }, 2000);
 
       return () => clearInterval(interval);
     }, []);
@@ -97,7 +97,7 @@ const RecentPost = () => {
         const randomIndex1 = Math.floor(Math.random() * objects1.length);
         const selectedObject1 = objects1[randomIndex1];
         setRandomObject1(selectedObject1);
-      }, 1500);
+      }, 3000);
 
       return () => clearInterval(interval);
     }, []);
@@ -141,7 +141,7 @@ const RecentPost = () => {
       const randomIndex2 = Math.floor(Math.random() * objects2.length);
       const selectedObject2 = objects2[randomIndex2];
       setRandomObject2(selectedObject2);
-    }, 1500);
+    }, 300);
 
     return () => clearInterval(interva2);
   }, []);
