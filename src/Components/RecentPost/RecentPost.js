@@ -141,7 +141,7 @@ const RecentPost = () => {
       const randomIndex2 = Math.floor(Math.random() * objects2.length);
       const selectedObject2 = objects2[randomIndex2];
       setRandomObject2(selectedObject2);
-    }, 300);
+    }, 3000);
 
     return () => clearInterval(interva2);
   }, []);
