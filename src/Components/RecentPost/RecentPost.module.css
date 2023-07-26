@@ -1,62 +1,65 @@
-.recentPost_container{
+/* General styles for larger screens */
+.recentPost_container {
     width: 100%;
     height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-}
-.innerofrecent{
+  }
+  
+  .innerofrecent {
     width: 90%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-}
-
-.recent_inner1{
+  }
+  
+  .recent_inner1 {
     width: 90%;
     height: 100%;
     position: relative;
     cursor: pointer;
-}
-.recent_inner1 img{
+  }
+  
+  .recent_inner1 img {
     transition: opacity 0.5s ease-in-out;
     height: 100%;
     width: 100%;
     object-fit: cover;
     cursor: pointer;
-}
-
-
-.recent_inner1.fade-out {
+  }
+  
+  .recent_inner1.fade-out {
     opacity: 0;
   }
   
   .recent_inner1.fade-in {
     opacity: 1;
   }
-
-.imgcontent{
+  
+  .imgcontent {
     position: absolute;
     bottom: 20px;
     left: 20px;
     cursor: pointer;
-}
-
-.imgcontent h1{
+  }
+  
+  .imgcontent h1 {
     color: white;
     font-size: 20px;
     font-family: 'Cinzel', serif;
-}
-.imgcontent h1:hover{
+  }
+  
+  .imgcontent h1:hover {
     cursor: pointer;
     text-decoration: underline;
     text-decoration-color: red;
-}
-
-.recent_inner2{
+  }
+  
+  .recent_inner2 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -64,15 +67,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.recent_inner_left1{
+  }
+  
+  .recent_inner_left1,
+  .recent_inner_left2 {
     width: 100%;
     height: 50%;
     cursor: pointer;
-}
-
-.recent_inner_left2{
-    width: 100%;
-    height: 50%;
-    cursor: pointer;
-}
+  }
+  
+  /* Mobile responsive styles */
+  @media only screen and (max-width: 600px) {
+    .recentPost_container {
+      height: auto;
+    }
+  
+    .innerofrecent {
+      flex-direction: column;
+    }
+  
+    .recent_inner1,
+    .recent_inner2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .recent_inner1 img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .imgcontent {
+      position: static;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  

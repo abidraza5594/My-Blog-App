@@ -46,3 +46,34 @@
     align-items: center;
     justify-content: space-between;
 }
+
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .logo {
+      font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 28px;
+    }
+    .navbartwo_container {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    .navbar_two_section {
+      margin-top: 10px;
+    }
+    .navbartwo_container ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .listSection {
+      margin-bottom: 5px;
+    }
+  }
+  

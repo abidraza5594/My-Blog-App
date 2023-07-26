@@ -1,62 +1,84 @@
-.navbar1_container{
+/* Default styles for larger screens */
+.navbar1_container {
     width: 100%;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-}
-.inner_container1{
-    width: 14%;
-    margin-left: 10%;
-    height: 30px;
-}
-
-.inner_container1 ul{
-    width: 100%;
-    height: 100%;
+  }
+  
+  .left_container {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .left_container ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
     gap: 15px;
-}
-
-.inner_container1 ul li{
+  }
+  
+  .left_container ul li {
     font-size: 12px;
     cursor: pointer;
-}
-
-.inner_container1 ul li:hover{
+  }
+  
+  .left_container ul li:hover {
     color: red;
-}
-
-.inner_container2{
+  }
+  
+  .right_container {
+    display: flex;
     margin-top: 15px;
-    margin-right: 10%;
-    width: 10%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
+    margin-right: 20px;
     align-items: center;
-}
-
-.inner_container2 ul{
-    width: 100%;
-    height: 100%;
+  }
+  
+  .right_container ul {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-.inner_container2 ul i{
+    gap: 10px;
+  }
+  
+  .right_container ul i {
     font-size: 12px;
     cursor: pointer;
-}
-.inner_container2 ul i :hover{
+  }
+  
+  .right_container ul i:hover {
     color: red;
-    background-color: red;
-}
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .navbar1_container {
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      height: auto;
+    }
+  
+    .left_container {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+  
+    .left_container ul {
+      justify-content: space-around;
+      gap: 5px;
+    }
+  
+    .right_container {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .right_container ul {
+      justify-content: space-around;
+      gap: 5px;
+    }
+  }
+  

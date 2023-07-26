@@ -21,10 +21,6 @@ const FeaturePost = () => {
         {
             image: "https://4.bp.blogspot.com/-GkUyTOGonKQ/Vupe8svLNsI/AAAAAAAADX0/tqWMHfiRudY_V82YeEE7yq86apVldYnZA/w217-h106-p-k-no-nu/photographer-1150052_960_720.jpg",
             title: "Cool vintage photograph"
-        },
-        {
-            image: "https://1.bp.blogspot.com/-v0QptPDrcVs/VupeaXsiCOI/AAAAAAAADXw/mXxQ3zVItm0UWkJqINGNkzqwVFL4pA6DQ/w217-h106-p-k-no-nu/books-1185628_960_720.jpg",
-            title: "Old books stacked on top of a ladder"
         }
     ]
     return (
