@@ -25,7 +25,7 @@ const FeaturePost = () => {
     ]
     return (
         <div className={Styled.featurePost_container}>
-            <div className={Styled.feature_inner}> {/* 80 */}
+            <div className={Styled.feature_inner}>
                 {FeatureData.map(data =>
                     <div className={Styled.feature_containt}>
                         <div className={Styled.img_container}>

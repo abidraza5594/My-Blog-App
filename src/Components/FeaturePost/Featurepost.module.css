@@ -56,12 +56,18 @@
     object-fit: cover;
     border-radius: 5px 5px 0 0; /* Added border-radius to match the container's corners */
   }
+
   
-  /* Media Query for Mobile Devices */
-  @media screen and (max-width: 768px) {
-    .feature_containt {
-      width: 47%; /* Adjusted the width to fit two items per row on smaller screens */
-      height: 150px; /* Reduced the height to save space */
-    }
+@media (max-width: 414px) {
+  .feature_containt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
+  .feature_inner {
+    justify-content: center; /* Center items vertically on mobile */
+  }
+}

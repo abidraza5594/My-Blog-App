@@ -63,9 +63,11 @@
     align-items: center;
     gap: 10px;
 }
-.PostDetails span{
+
+.PostDetails span {
     font-size: 10px;
 }
+
 .profileimg {
     width: 20px;
     height: 20px;
@@ -86,6 +88,7 @@
     margin-left: 0;
     overflow: hidden;
 }
+
 .imgdiv img {
     width: 100%;
     height: 100%;
@@ -99,8 +102,8 @@
 
 .moreStorise_Title {
     display: inline-block;
-  background-color: lightgray;
-  padding: 5px;
+    background-color: lightgray;
+    padding: 5px;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -112,3 +115,9 @@
 
 }
 
+
+@media (max-width: 414px) {
+    .morestoriseall{
+        gap: 5px;
+    }
+  }

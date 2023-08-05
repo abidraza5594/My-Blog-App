@@ -3,19 +3,19 @@ import Styled from "./MoreStorise.module.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import {useSelector} from "react-redux"
+import { useSelector } from "react-redux"
 
 
 const MoreStorise = () => {
-    const islight=useSelector(state=>state.islight)
+    const islight = useSelector(state => state.islight)
     useEffect(() => {
         AOS.init();
-      }, []);
+    }, []);
     return (
         <div className={Styled.moreStorise_container}>
             <div className={Styled.addvertisement}>
                 <img src="https://1.bp.blogspot.com/-6Jp6oiPX7mA/XE8APiMdJZI/AAAAAAAAD0g/SwKrDjPFgFU_KUUblg8KZsDzDky_O5wWQCK4BGAYYCw/s1600/ads.png" alt="" />
-                <h1 style={{borderBottom:`1px solid ${islight?"white":"black"}`}}>MORE STORIES</h1>
+                <h1 style={{ borderBottom: `1px solid ${islight ? "white" : "black"}` }}>MORE STORIES</h1>
             </div>
 
             <div className={Styled.morestoriseall} >
@@ -27,7 +27,7 @@ const MoreStorise = () => {
                     <h1>Elegant woman in front of a waterfall</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://avatars.githubusercontent.com/u/102030339?v=4" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Abid - mar 15</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Abid - mar 15</span>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ const MoreStorise = () => {
                     <h1>Business man having a cup of coffee</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse1.mm.bing.net/th?id=OIP.y0XgqZSOkzrvCysu7BN2dAHaE8&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Arif - mar 15</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Arif - mar 15</span>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ const MoreStorise = () => {
                     <h1>Girl with camera style vintage</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse2.mm.bing.net/th?id=OIP.Bt86cFV63I4JaLKFhk6sPwHaEK&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Bushra - Dec 12</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Bushra - Dec 12</span>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@ const MoreStorise = () => {
                     <h1>Girl play with fireworks in nature</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse2.mm.bing.net/th?id=OIP.Bt86cFV63I4JaLKFhk6sPwHaEK&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Bushra - Dec 12</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Bushra - Dec 12</span>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ const MoreStorise = () => {
                     <h1>Old books stacked on top of a ladder</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse4.mm.bing.net/th?id=OIP._VKMsS6iBKur0N57MGGOlwAAAA&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Anil - Oct 20</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Anil - Oct 20</span>
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@ const MoreStorise = () => {
                     <h1>Business man reading newspaper</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse1.mm.bing.net/th?id=OIP.leRaZskYpTKA55a0St0tZgHaJa&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Aman - March 17, 2016</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Aman - March 17, 2016</span>
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@ const MoreStorise = () => {
                     <h1>Sandwich with delicious cheeses</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse1.mm.bing.net/th?id=OIP.leRaZskYpTKA55a0St0tZgHaJa&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Abid - Sep 17, 2016</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Abid - Sep 17, 2016</span>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@ const MoreStorise = () => {
                     <h1>Sunset behind an old and beautiful building</h1>
                     <div className={Styled.PostDetails}>
                         <div className={Styled.profileimg}><img src="https://tse1.mm.bing.net/th?id=OIP.leRaZskYpTKA55a0St0tZgHaJa&pid=Api&P=0&h=180" alt="" /></div>
-                        <span style={{color:islight?"white":"black"}}>Abid - Sep 17, 2016</span>
+                        <span style={{ color: islight ? "white" : "black" }}>Abid - Sep 17, 2016</span>
                     </div>
                 </div>
             </div>
