@@ -53,15 +53,15 @@ const Footer = () => {
                     <h1>Categories</h1>
                     <div>
                         <li>
-                            <span>><a href="">Business</a></span>
+                            <span><a href="">Business</a></span>
                             <span>5</span>
                         </li>
                         <li>
-                            <span>><a href="">Sports</a></span>
+                            <span><a href="">Sports</a></span>
                             <span>4</span>
                         </li>
                         <li>
-                            <span>><a href="">Technology</a></span>
+                            <span><a href="">Technology</a></span>
                             <span>5</span>
                         </li>
                     </div>
@@ -115,8 +115,6 @@ const Footer = () => {
                             <span style={{fontSize:"10px"}}>March 23, 2016</span>
                         </div>
                     </div>
-                
-
 
                 </div>
 

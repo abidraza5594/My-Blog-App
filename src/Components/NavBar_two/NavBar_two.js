@@ -16,13 +16,9 @@ const NavBarTwo = () => {
       <div className={Styed.logo} style={{ color: islight ? '#be3c32' : 'red' }}>
         My Blogs
       </div>
-      <div className={Styed.hamburger_menu} onClick={handleMenuToggle}>
-        <div className={`${Styed.hamburger_line} ${menuOpen && Styed.hamburger_line_open}`} />
-        <div className={`${Styed.hamburger_line} ${menuOpen && Styed.hamburger_line_open}`} />
-        <div className={`${Styed.hamburger_line} ${menuOpen && Styed.hamburger_line_open}`} />
-      </div>
-      <div className={`${Styed.navbar_two_section} ${menuOpen && Styed.navbar_two_section_open}`}>
-        <ul>
+      <div className={`${Styed.navbar_two_section}
+       ${menuOpen && Styed.navbar_two_section_open}`}>
+        <ul className='navbar_two_section_ul'>
           <li className={Styed.listSection}>
             <span className={Styed.listSectionLogo} style={{ color: islight ? '#be3c32' : 'red' }}>
               <i className="fa fa-bullhorn" aria-hidden="true" />
